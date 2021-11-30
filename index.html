@@ -1,97 +1,91 @@
 <!DOCTYPE html>
 <html 
 <head>
-    <meta charset="UTF-8">
-     <title>Резюме</title>
+			<meta charset="UTF-8">
+			<title>Резюме</title>
+			<link rel="stylesheet" href="styles.css">
 </head>
-<body>
-	<table cellspacing="15">
-	  <tr>
-		<td>
-			<img src="avatar.jpg" width="100" 
-			<!-- alt="тут моё фото"/> -->
-		</td>
-		<td>
-			<h1>Мокшин Евгений</h1>
-			<p>
-				<em>Машинист
-					<strong> крана автомобильного
-					</strong>
-				</em>
-			</p> 
-			<p>Мне нравится программировать,
-			  заниматься спортом,
-			  ремонтировать бытовую технику
-			</p>
+	<body>
+	      <div class="container">
+					<div class="info">
+							<img src="avatar.jpg" alt="тут моё фото"class="avatar"/>
+						<div>	
+							<h1>Мокшин Евгений</h1>
+								<p>Я курсант Техноком.</p>
+								<p> Обучаюсь по программе full stack разработчика Strapi+Quasar.</p>
+								<p>Я люблю читать,заниматься спортом и программировать</p>
+								
+						    <h4>Мои социальные сети</h4>
+									<a href="https://t.me/EvgenyMokshin"target="-blank"	>Telegram</a>
+									|
+									<a href="https://instagram.com/mokshin9155"target="-blank"	>Instagram</a>
+									
+						</div>			
+								
+					</div>
+				
+					<div class="card bg-yellow">
+							<h2>Мои хобби</h2>
+								<ol class="list">
+									<li>электроника</li>
+									<li>програмирование</li>
+									<li>спорт</li>
+									<li>рыбалка</li>
+								</ol>
+			       </div>
+				   <div class=" card bg-green">
+							<h2>Опыт работы</h2>
+								<table class="tabel">
+									<tr>
+										<th>Компания</th>
+										<th>Должность</th>
+										<th>Год</th>
+									</tr>
+									<tr>
+										<td>Сибрегионстрой</td>
+										<td>Машинист автомобильного крана</td>
+										<td>2008-2010</td>
+									</tr>
+									<tr>
+										<td>Самозанятый</td>
+										<td>Электрик</td>
+										<td>2010-2013</td>
+									</tr>
+								</table>
+					</div>
+							<h2>Связаться со мной</h2>
+								<form action="/">
+								<div class="form">
+									<div class="form-group">
+										<label for="name">Ваше имя</label>
+										<input type="text" id="name"placeholder="Введите ваше имя...">
+								  </div>
 
-		</td>
-	  </tr>
-   </table>
-	
-   <hr>
-	<h2>Мои социальные сети</h2>
-	<ul>
-		<li><a href="https://t.me/EvgenyMokshin"
-		target="-blank"	>Telegram</a></li>
-		<li><a href="https://instagram.com/mokshin9155"
-			target="-blank"	>Instagram</a></li>
-	</ul>
-	<hr>
-     <h2>Мои хобби</h2>
-	 <ol>
-		 <li>электроника</li>
-		 <li>програмирование</li>
-		 <li>спорт</li>
-		 <li>рыбалка</li>
-	 </ol>
-	 <hr>
-	 <h2>Опыт работы</h2>
-		 <table>
-			<tr>
-				<th>Компания</th>
-				<th>Должность</th>
-				<th>Год</th>
-
-			</tr>
-			<tr>
-
-			<tr>
-				<td>Сибрегионстрой</td>
-				<td>Машинист автомобильного крана</td>
-				<td>2008-2010</td>
-
-			</tr>
-			<tr>
-				<td>Самозанятый</td>
-				<td>электрик</td>
-				<td>2010-2013</td>
-
-			</tr>
-		 </table>
-		 <hr>
-		 <h2>Связаться со мной</h2>
-		 <form>
-			 <label for="name">Ваше имя</label>
-			 <input type="text" id="name"
-			 placeholder="Введите ваше имя...">
-
-			 <br>
-
-			 <label for="email">Ваш Email </label>
-			 <input type="email" id="email"
-			 placeholder="Введите ваш email... ">
-			 <br>
-
-			 <label for="text">Ваше сообщение </label>
-			 
-			 <br>
-			 <textarea  id="text" cols="30" rows="10"></textarea>
-			 
-
-			 <br>
-
-			 <input type="submit" value="Связаться">
-		 </form>
+								  <div class="form-group">
+									<label for="email">Ваш Email</label>
+									<input type="email" id="email"placeholder="Введите ваш email... ">
+								  </div>
+								</div> 
+								<div class="form-group">
+									<label for="text">Ваше сообщение</label>
+									
+									<textarea  id="text" cols="30" rows="10"></textarea>
+								</div>	
+									<input type="submit" value="Связаться">
+								</form>
+							
+							<div class="position">
+								<div class="position">
+									
+								</div>
+								<div class="box"></div>
+							  </div>
+						
+							
+							
+			   <div style="margin-bottom: 500px;"></div>
+		 </div>
 	 
-</body>
+        </body>
+
 </html>
